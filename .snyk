@@ -1,0 +1,26 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - botkit-sms > body-parser > debug > ms:
+        patched: '2017-05-22T03:14:12.033Z'
+    - botkit-sms > express > debug > ms:
+        patched: '2017-05-22T03:14:12.033Z'
+    - botkit-sms > express > finalhandler > debug > ms:
+        patched: '2017-05-22T03:14:12.033Z'
+    - botkit-sms > express > send > debug > ms:
+        patched: '2017-05-22T03:14:12.033Z'
+    - botkit-sms > express > serve-static > send > debug > ms:
+        patched: '2017-05-22T03:14:12.033Z'
+    - botkit-sms > botkit > localtunnel > debug > ms:
+        patched: '2017-05-22T03:14:12.033Z'
+    - botkit-sms > express > send > ms:
+        patched: '2017-05-22T03:14:12.033Z'
+    - botkit-sms > twilio > jsonwebtoken > ms:
+        patched: '2017-05-22T03:14:12.033Z'
+    - botkit-sms > botkit > twilio > jsonwebtoken > ms:
+        patched: '2017-05-22T03:14:12.033Z'
+    - botkit-sms > express > serve-static > send > ms:
+        patched: '2017-05-22T03:14:12.033Z'
